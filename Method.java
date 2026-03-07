@@ -17,7 +17,11 @@ public class Method {
     }
 
     public static void main(String[] args) {
+
         Scanner sc = new Scanner(System.in);
+        int t= sc.nextInt();
+        for(int i=0;i<t;i++)
+        {
         System.out.print("Enter the num value: ");
         int num = sc.nextInt();
 
@@ -28,6 +32,7 @@ public class Method {
             System.out.println("True - It is a palindrome");
         } else {
             System.out.println("False - Not a palindrome");
+        }
         }
     }
 }
